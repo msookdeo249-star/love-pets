@@ -1,1 +1,49 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Love Pets</title>
+<link href="https://fonts.googleapis.com/css2?family=UnifrakturCook:wght@700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+<div>Love Pets — Customer Service: <span class="highlight">1-800-PET-LOVE</span></div>
+<button class="cool-btn" onclick="flashHeader()">Flash Header</button>
+</header>
 
+
+<div id="container">
+<aside>
+<h3>Pet Options</h3>
+<ul>
+<li onclick="showPet('Dogs')">Dogs</li>
+<li onclick="showPet('Cats')">Cats</li>
+<li onclick="showPet('Birds')">Birds</li>
+<li onclick="showPet('Fish')">Fish</li>
+<li onclick="showPet('Reptiles')">Reptiles</li>
+</ul>
+</aside>
+
+
+<main id="mainContent">
+<h2>Welcome to Love Pets!</h2>
+<p>Select a pet from the sidebar to learn more.</p>
+</main>
+</div>
+
+
+<footer>
+<a href="#">Dogs</a>
+<a href="#">Cats</a>
+<a href="#">Birds</a>
+<a href="#">Fish</a>
+<a href="#">Reptiles</a>
+</footer>
+
+
+<script src="script.js"></script>
+</body>
+</html>
